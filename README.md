@@ -31,6 +31,10 @@ It generates N configurations for sets of parameters chosen randomly from a refe
 This notebook studies the linear stability of the configurations of giant vacuoles. 
 It calculates numerically the force exerted on the vacuoles upon perturbation of the vacuole radius. 
 
+### thickness.nb
+
+This notebook studies numerically the thickness of a contractile shell that cells might create to stabilize small vacuoles. 
+
 ### dynamics.nb
 
 This notebook generates temporal trajectories of the configurations of giant vacuoles according to our proposed biophysical model (Eqs. 1 and 2 of the manuscript). It then analyses the dependence of various physical parameters on time for fixed perfusion pressure drop (three cases studied). 
@@ -43,10 +47,13 @@ Parameters analysed are:
 ### dynamics_ensemble.nb
 
 This notebook investigates how robust are the characteristic feratures of temporal trajectories of the configurations of giant vacuoles against physiological variability. 
-It generates N configurations for sets of parameters chosen randomly from a reference set while including 20% variability in the values of dynamical parameters: viscosity; timescale for actin polymerization and myosin recruitment.  
+It generates N configurations for sets of parameters chosen randomly from a reference set while including 20% variability in the values of dynamical parameters: 
+- viscosity
+- timescale for actin polymerization and myosin recruitment.  
 
 ### kinetic.nb
 
-This notebook investigates how robust are the characteristic feratures of temporal trajectories of the configurations of giant vacuoles against physiological variability. 
-
-### thickness.nb
+This notebook investigates coarsening of two invaginating vacuoles. 
+The notebook generates 
+- a phase diagram of the steady-state configurations of the two vacuoles; 
+- temporal trajectories of the configurations of the two vacuoles.
